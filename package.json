@@ -1,0 +1,40 @@
+{
+  "name": "akucari",
+  "version": "1.0.0",
+  "description": "kopi js for akucari",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codermu/memberid.git"
+  },
+  "keywords": [
+    "kopi",
+    "js"
+  ],
+  "author": "lukluk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codermu/memberid/issues"
+  },
+  "homepage": "https://github.com/codermu/memberid",
+  "dependencies": {
+    "forever": "^0.13.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-concat": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-injector": "^0.6.0",
+    "grunt-notify": "",
+    "grunt-obfuscator": "",
+    "node-http-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-include-source": "^0.5.1"
+  }
+}

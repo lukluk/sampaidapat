@@ -1,0 +1,5 @@
+forever stop webserver
+rm -rf ~/.forever/webserver.log
+forever --uid webserver -w start app.js
+forever list
+grunt && grunt watch:all
